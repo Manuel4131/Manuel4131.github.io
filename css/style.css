@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, figure {
       width: 100%; } }
 
 .fh5co-nav {
-  margin: 5em 0 0 0; }
+  margin: 1em 0 0 0; }
   @media screen and (max-width: 768px) {
     .fh5co-nav {
       margin: 0; } }
