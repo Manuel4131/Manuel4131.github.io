@@ -1,0 +1,8 @@
+Under sass directory
+
+After modifying the scss file, run the cmd to replace 
+css file for new update.
+
+
+```sass style.scss ../css/style.css```
+
