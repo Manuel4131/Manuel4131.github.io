@@ -4,9 +4,9 @@ $font-secondary: 'Source Sans Pro', sans-serif;
 
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
-$padding-base-vertical: 14px !default;
+$padding-ba100se-vertical: 14px !default;
 
 $brand-primary: #66D37E !default;
 $brand-secondary: #007CB9 !default;
@@ -55,16 +55,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -79,7 +79,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -91,10 +91,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -103,15 +103,15 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
 body {
 	font-family: $font-primary;
 	font-weight: 300;
-	font-size: 14px;
-	line-height: 1.7;
+	font-size: 28px;
+	line-height: 2.0;
 	color: lighten($brand-black,50%);
 	background: $brand-body-color;
 }
@@ -122,9 +122,9 @@ body {
 	height: 100%;
 	@include transition(.5s);
 	.offcanvas & {
-		overflow: hidden;	
+		overflow: hidden;
 		position: absolute;
-		
+
 		&:after {
 			@include transition(2s);
 			position: absolute;
@@ -197,6 +197,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-size: 24px;
 		margin: 0;
 		padding: 0;
+		text-transform: uppercase;
 		font-weight: 600;
 		font-family: $font-secondary;
 		a{
@@ -290,7 +291,7 @@ h1, h2, h3, h4, h5, h6, figure {
 						border-width: 8px;
 						margin-left: -8px;
 					}
-					
+
 					li {
 						display: block;
 						margin-bottom: 7px;
@@ -382,14 +383,14 @@ h1, h2, h3, h4, h5, h6, figure {
 		display: table;
 		text-align: center;
 		background: $brand-white;
-		
+
 		-webkit-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-ms-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-o-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		@include border-radius(50%);
-		
+
 		i {
 			text-align: center;
 			display: table-cell;
@@ -409,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	&:hover {
 		.overlay {
-			background: rgba(0, 0, 0, .7);		
+			background: rgba(0, 0, 0, .7);
 		}
 		a {
 			-webkit-transform: scale(1.1);
@@ -417,7 +418,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			-ms-transform: scale(1.1);
 			-o-transform: scale(1.1);
 			transform: scale(1.1);
-			
+
 		}
 	}
 }
@@ -619,7 +620,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	@media screen and(max-width: $screen-xs){
 		height: 270px;
-	}	
+	}
 	.desc{
 		display: table-cell;
 		vertical-align: middle;
@@ -781,7 +782,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .blog-flex{
 	@include flex();
 	@include flexwrap();
-	width: 100%;	
+	width: 100%;
 	padding: 0 !important;
 	.featured-blog, .blog-entry{
 		width: 50%;
@@ -810,7 +811,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			content: '';
 			border: 1px solid rgba($brand-white,.4);
 		}
-		
+
 		.desc-t{
 			display: table;
 			min-height: 430px;
@@ -932,7 +933,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		a{
 			color: $brand-black;
 		}
-		
+
 	}
 }
 .form-control {
@@ -945,7 +946,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	font-size: 13px !important;
 	font-weight: 300;
 	@include border-radius(0px);
-	
+
 	&:focus, &:active {
 		box-shadow: none;
 		border: 2px solid rgba(0,0,0,.8);
@@ -1005,8 +1006,9 @@ input[type="text"] {
 		color: $brand-black;
 	}
 	span{
-		display: inline;
+		display: block;
 		margin-bottom: 10px;
+		text-transform: uppercase;
 		font-size: 12px;
 		letter-spacing: 2px;
 	}
@@ -1151,7 +1153,7 @@ input[type="text"] {
 			text-decoration: none;
 			outline: none;
 		}
-	}	
+	}
 }
 
 
