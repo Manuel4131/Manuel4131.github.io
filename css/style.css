@@ -388,7 +388,12 @@ h1, h2, h3, h4, h5, h6, figure {
               width: 100%; } }
 
 .fh5co-light-grey {
-  background: #fafafa; }
+  background: #BBF3FA;
+
+  /* background-image: url(../images/bluesky.jpg);
+  background-repeat: no-repeat;
+  background-size: auto; */
+  }
 
 #fh5co-about,
 #fh5co-services,
@@ -397,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-counter,
 #fh5co-footer {
-  padding: 6em 3em;
+  padding: 2em 2em;
   clear: both; }
   @media screen and (max-width: 768px) {
     #fh5co-about,
