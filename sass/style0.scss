@@ -110,7 +110,6 @@ $form-group-margin-bottom:       30px !default;
 body {
 	font-family: $font-primary;
 	font-weight: 300;
-
 	font-size: 28px;
 	line-height: 2.0;
 	color: lighten($brand-black,50%);
@@ -150,7 +149,6 @@ a {
 }
 p {
 	margin-bottom: 20px;
-	font-family: cariel;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -184,7 +182,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-	margin: 1em 0 0 0;
+	margin: 5em 0 0 0;
 	@media screen and (max-width: $screen-sm ) {
 		margin: 0;
 	}
