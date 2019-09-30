@@ -551,7 +551,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 .fh5co-light-grey{
-	background: lighten($brand-black,98%);
+	// background: lighten($brand-black,98%);
+	background: #BBF3FA;
 }
 
 #fh5co-about,
@@ -985,7 +986,7 @@ input[type="text"] {
 			padding-left: 10px;
 			padding-right: 10px;
 			i {
-				font-size: 20px;
+				font-size: 41px;
 			}
 		}
 	}
